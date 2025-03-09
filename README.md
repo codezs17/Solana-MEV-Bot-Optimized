@@ -110,8 +110,8 @@ The bot follows this algorithmic flow:
 ### Performance Metrics
 - **Total Trades Executed**: 1,200+
 - **Success Rate**: 92%
-- **Average Profit per Trade**: 0.5 SOL
-- **Total Profit (30 Days)**: 600 SOL
+- **Average Profit per Trade**: 0.05 SOL
+- **Total Profit (30 Days)**: 60 SOL
 
 ### Example Trade
 | Step               | Details                                  |
