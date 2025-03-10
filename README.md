@@ -77,18 +77,18 @@ The bot follows this algorithmic flow:
    ```
 2. Install dependencies:
    ```bash
-   cargo build --release
+   cargo build
    ```
 3. Configure the bot:
    - Create a `.env` file in the root directory.
-   - Add your Solana wallet private key and API keys (if needed):
+   - Add your Solana wallet private key and API keys:
      ```
-     PRIVATE_KEY=your-private-key
-     RPC_URL=https://api.mainnet-beta.solana.com
+     PRIVATE_KEY=your-wallet-private-key
+     RPC_URL=https://api.mainnet-beta.solana.com(replace with your private rpc)
      ```
 4. Run the bot:
    ```bash
-   cargo run --release
+   cargo run
    ```
 
 ---
