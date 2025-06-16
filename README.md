@@ -25,8 +25,7 @@
 6. [Usage](#-usage)
 7. [Bot Results and Statistics](#-bot-results-and-statistics)
 8. [Contributing](#-contributing)
-9. [Contact Information](#-contact-information)
-10. [License](#-license)
+9. [License](#-license)
 
 ---
 
