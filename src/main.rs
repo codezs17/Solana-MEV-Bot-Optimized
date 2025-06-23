@@ -2,7 +2,6 @@ use std::collections::HashMap;
 use std::fs::{File, OpenOptions};
 use std::io::{BufWriter, Write};
 use std::path;
-
 use anyhow::Result;
 use futures::FutureExt;
 use log::info;
