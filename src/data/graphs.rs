@@ -4,7 +4,6 @@
 // use systemstat::platform::common::Platform;
 // use systemstat::System;
 // use std::collections::vec_deque::VecDeque;
-
 // const FPS: u32 = 10;
 // const LENGTH: u32 = 20;
 // const N_DATA_POINTS: usize = (FPS * LENGTH) as usize;
