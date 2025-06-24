@@ -48,6 +48,7 @@ pub async fn check_tx_status(commitment_config: CommitmentConfig, chain: ChainTy
             return Ok(false);
         }
         let ten_secs = Duration::from_secs(10);
+        
         info!("⏳ {} seconds...", 10 * counter);
         sleep(ten_secs);
         counter += 1;

@@ -58,6 +58,7 @@ pub async fn construct_meteora_instructions(params: SwapParametersMeteora) -> Ve
     let amm_program = from_str("LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo").unwrap();
     
     let rpc_client: RpcClient = RpcClient::new(env.rpc_url);
+    
     let pool_account: solana_sdk::account::Account = rpc_client.get_account(&lb_pair).unwrap();
     let pool_state = AccountData::try_from_slice(&pool_account.data).unwrap();
     
