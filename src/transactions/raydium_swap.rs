@@ -57,7 +57,6 @@ pub fn construct_raydium_instructions(params: SwapParametersRaydium) -> Vec<Inst
     let pool_account: solana_sdk::account::Account = rpc_client.get_account(&pool).unwrap();
     // println!("Params data length: {:?}", pool_account.data.len());
     let pool_state = AmmInfo::try_from_slice(&pool_account.data).unwrap();
-    
     // println!("min_amount_out: {:?}", min_amount_out);
     // println!("Params: {:?}", params);
     // println!("Pool State: {:?}", pool_state);
@@ -129,6 +128,5 @@ pub fn construct_raydium_instructions(params: SwapParametersRaydium) -> Vec<Inst
         details: "Raydium Swap Instruction".to_string(), 
         market: Some(MarketInfos{dex_label: DexLabel::RAYDIUM, address: pool })
     });
-
     return (swap_instructions);
 }
